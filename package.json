@@ -1,0 +1,34 @@
+{
+  "name": "@yuu104/rext",
+  "version": "0.1.202",
+  "description": "Simple text reverse library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "rext": "./dist/bin/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuu104/rext.git"
+  },
+  "keywords": [
+    "reverse",
+    "text",
+    "cli"
+  ],
+  "author": "yuu",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.10.7",
+    "lefthook": "^1.10.10",
+    "typescript": "^5.7.3"
+  }
+}
